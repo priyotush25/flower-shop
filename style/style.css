@@ -9,6 +9,7 @@ a {
 }
 
 img {
+  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -118,4 +119,32 @@ header {
   color: rgb(39, 39, 39);
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+.service-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  margin-top: 128px;
+  padding: 86px 175px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background: rgba(39, 39, 39, 0.05);
+}
+
+.service-items {
+  text-align: center;
+}
+
+.service-items img {
+  margin: 0 auto;
+  max-width: 88px;
+}
+
+.service-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 24px;
+  color: rgba(39, 39, 39, 0.8);
 }
