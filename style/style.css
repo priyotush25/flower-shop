@@ -53,7 +53,7 @@ button {
 
 /*=======Banner style=========*/
 header {
-  width: 100%;
+  max-width: 1922px;
   padding-top: 50px;
   background: rgba(229, 84, 115, 0.1);
 }
@@ -147,4 +147,39 @@ header {
   font-weight: 600;
   margin-top: 24px;
   color: rgba(39, 39, 39, 0.8);
+}
+
+/*=======Hot Deal Section Style=========*/
+.hot-deal-section {
+  margin-top: 128px;
+  max-width: 1922px;
+  border-radius: 8px;
+  padding: 100px;
+  background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-content {
+  gap: 186px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hot-deal-text {
+  width: 594px;
+  text-align: center;
+}
+
+.hot-deal-text p {
+  margin: 24px 0 32px;
+}
+
+.hot-deal-text span {
+  color: rgb(229, 84, 115);
+}
+
+.hot-deal-img img {
+  width: 318px;
 }
