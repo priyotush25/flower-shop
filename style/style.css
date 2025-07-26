@@ -81,3 +81,41 @@ header {
 .banner-img img {
   height: 100%;
 }
+
+/*=======Feature Section Style=========*/
+.feature-section {
+  margin-top: 178px;
+  text-align: center;
+}
+
+.feature-section p {
+  margin: 24px auto 48px;
+  width: 594px;
+}
+
+.feature-cards {
+  gap: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flower-img {
+  padding: 110px 78px 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.flower-img img {
+  width: 310px;
+  height: 428px;
+}
+
+.flower-name {
+  margin-top: 32px;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(39, 39, 39);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
