@@ -183,3 +183,25 @@ header {
 .hot-deal-img img {
   width: 318px;
 }
+
+/*=======Instagram Section Style=========*/
+.instagram-section {
+  text-align: center;
+  margin: 128px auto;
+}
+
+.instagram-section p {
+  margin: 24px auto 48px;
+  width: 594px;
+}
+
+.instagram-flower-cards {
+  gap: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.instagram-flower-cards img {
+  width: 342px;
+}
