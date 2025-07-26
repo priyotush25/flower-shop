@@ -205,3 +205,42 @@ header {
 .instagram-flower-cards img {
   width: 342px;
 }
+
+/*=======News Letter Section Style=========*/
+.news-letter-section {
+  width: 1440px;
+  text-align: center;
+  border-radius: 8px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/Flower Asset/Rectangle\ 9.png");
+
+  padding: 122px 187px;
+  box-sizing: border-box;
+}
+
+.news-letter-section p {
+  margin: 16px 0 48px;
+}
+
+.input-section input {
+  width: 700px;
+  margin-right: 16px;
+  padding: 22px;
+  border: 1px solid rgb(248, 243, 243);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+
+.input-section input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(39, 39, 39, 0.6);
+}
+
+/*=======footer Section Style=========*/
+.footer-section {
+  width: 1922px;
+}
