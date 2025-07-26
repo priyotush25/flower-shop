@@ -244,7 +244,7 @@ header {
 
 /*=======footer Section Style=========*/
 .footer-section {
-  width: 1922px;
+  max-width: 1922px;
   height: 449px;
   margin: 0 auto;
   background: rgb(17, 16, 16);
@@ -254,6 +254,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .footer-title {
